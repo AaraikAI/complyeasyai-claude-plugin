@@ -1,0 +1,17 @@
+{
+  "name": "complyeasyai",
+  "owner": {
+    "name": "AARAIK LLC",
+    "url": "https://www.complyeasyai.com"
+  },
+  "description": "ComplyEasyAI plugins for Claude.",
+  "plugins": [
+    {
+      "name": "complyeasyai",
+      "source": "./plugins/complyeasyai",
+      "description": "Compliance workflows over your ComplyEasyAI workspace.",
+      "category": "productivity",
+      "tags": ["compliance", "grc", "audit", "soc2", "iso27001"]
+    }
+  ]
+}

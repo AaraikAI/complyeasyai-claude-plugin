@@ -1,0 +1,19 @@
+{
+  "name": "complyeasyai",
+  "displayName": "ComplyEasyAI",
+  "version": "0.1.0",
+  "description": "Readiness briefs, risk and vendor reviews, questionnaire drafting and auditor-request triage over your ComplyEasyAI workspace.",
+  "author": {
+    "name": "AARAIK LLC",
+    "url": "https://www.complyeasyai.com"
+  },
+  "homepage": "https://www.complyeasyai.com/docs/ai-connectors",
+  "repository": "https://github.com/AaraikAI/complyeasyai-claude-plugin",
+  "license": "Apache-2.0",
+  "keywords": ["compliance", "grc", "audit", "mcp"],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://www.complyeasyai.com/docs/ai-connectors",
+  "supportUrl": "https://www.complyeasyai.com/docs/ai-connectors#support",
+  "privacyPolicyUrl": "https://www.complyeasyai.com/legal/privacy",
+  "termsOfServiceUrl": "https://www.complyeasyai.com/legal/terms"
+}
