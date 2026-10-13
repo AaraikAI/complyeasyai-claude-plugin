@@ -1,5 +1,8 @@
 # ComplyEasyAI plugin for Claude
 
+> **Status: pilot.** The ComplyEasyAI connector is in a limited pilot and not generally available
+> yet; this plugin works only for workspaces whose administrator has the AI connector turned on.
+
 Work with your ComplyEasyAI compliance workspace from Claude. The plugin connects Claude to your
 workspace through ComplyEasyAI's hosted connector and adds ready-made compliance workflows:
 audit-readiness briefs, weekly risk reviews, vendor reviews, security questionnaire drafting,

@@ -1,5 +1,10 @@
 # ComplyEasyAI plugins for Claude
 
+> **Status: pilot.** The ComplyEasyAI connector this plugin uses is in a limited pilot and is not
+> generally available yet. The plugin works only for workspaces whose administrator has the AI
+> connector turned on; for everyone else, sign-in will not complete. Watch this repository's
+> releases for general availability.
+
 This repository is the ComplyEasyAI plugin marketplace for Claude. It holds one plugin,
 **ComplyEasyAI** (`plugins/complyeasyai`), which connects Claude to your ComplyEasyAI compliance
 workspace through ComplyEasyAI's hosted connector and adds compliance workflows: audit-readiness
