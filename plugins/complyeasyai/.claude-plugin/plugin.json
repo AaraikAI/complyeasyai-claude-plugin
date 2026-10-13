@@ -13,7 +13,7 @@
   "keywords": ["compliance", "grc", "audit", "mcp"],
   "icon": "./assets/icon.png",
   "documentationUrl": "https://www.complyeasyai.com/docs/ai-connectors",
-  "supportUrl": "https://www.complyeasyai.com/docs/ai-connectors#support",
+  "supportUrl": "https://www.complyeasyai.com/docs/ai-connectors#sec-support",
   "privacyPolicyUrl": "https://www.complyeasyai.com/legal/privacy",
   "termsOfServiceUrl": "https://www.complyeasyai.com/legal/terms"
 }

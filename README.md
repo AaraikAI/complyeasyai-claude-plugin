@@ -67,7 +67,7 @@ Raise `version` in `plugins/complyeasyai/.claude-plugin/plugin.json`, add the en
 ## Security and support
 
 Report vulnerabilities as described in [SECURITY.md](SECURITY.md). For product support, see
-https://www.complyeasyai.com/docs/ai-connectors#support
+https://www.complyeasyai.com/docs/ai-connectors#sec-support
 
 ## License
 

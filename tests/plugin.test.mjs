@@ -206,6 +206,8 @@ describe('plugin.json', () => {
     assert.equal(manifest.privacyPolicyUrl, 'https://www.complyeasyai.com/legal/privacy');
     assert.equal(manifest.termsOfServiceUrl, 'https://www.complyeasyai.com/legal/terms');
     assert.equal(manifest.documentationUrl, 'https://www.complyeasyai.com/docs/ai-connectors');
+    // Section anchors on the documentation site take the form #sec-<heading>.
+    assert.equal(manifest.supportUrl, 'https://www.complyeasyai.com/docs/ai-connectors#sec-support');
   });
 
   test('declares no components inline, no user configuration and no dependencies', () => {
@@ -446,7 +448,7 @@ describe('README files', () => {
     assert.match(pluginReadme, /monthly allowance/);
     assert.match(pluginReadme, /Clear authentication/);
     assert.ok(pluginReadme.includes('https://www.complyeasyai.com/legal/privacy'));
-    assert.ok(pluginReadme.includes('https://www.complyeasyai.com/docs/ai-connectors#support'));
+    assert.ok(pluginReadme.includes('https://www.complyeasyai.com/docs/ai-connectors#sec-support'));
     assert.ok(pluginReadme.includes('/plugin install complyeasyai@complyeasyai'));
   });
 

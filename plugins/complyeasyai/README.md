@@ -99,7 +99,7 @@ of them, so the tools are not duplicated. We recommend one install path per comp
 - Documentation: https://www.complyeasyai.com/docs/ai-connectors
 - Privacy policy: https://www.complyeasyai.com/legal/privacy
 - Terms of service: https://www.complyeasyai.com/legal/terms
-- Support: https://www.complyeasyai.com/docs/ai-connectors#support
+- Support: https://www.complyeasyai.com/docs/ai-connectors#sec-support
 
 ComplyEasyAI is a product of AARAIK LLC. This plugin is licensed under the Apache License 2.0 (see
 `LICENSE`).
