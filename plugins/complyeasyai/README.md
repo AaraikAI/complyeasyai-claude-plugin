@@ -88,8 +88,8 @@ On Claude Team and Enterprise plans, an Owner decides which plugins and connecto
 ## Sign in and sign out
 
 - **Claude Code:** run `/mcp`, choose the ComplyEasyAI server (`plugin:complyeasyai:complyeasyai`) and
-  select **Authenticate**. Your browser opens ComplyEasyAI: sign in as usual (password, magic link,
-  single sign-on or two-factor, as your account requires), check the app shown on the consent screen
+  select **Authenticate**. Your browser opens ComplyEasyAI: sign in as usual (password, magic link
+  or two-factor, as your account requires), check the app shown on the consent screen
   and approve. To sign out, choose **Clear authentication** in `/mcp`.
 - **Claude (web, desktop and Cowork):** select **Connect** on the plugin's Connectors tab, sign in to
   ComplyEasyAI and approve. Disconnect from the same tab.
