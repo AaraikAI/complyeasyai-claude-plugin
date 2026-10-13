@@ -452,6 +452,18 @@ describe('README files', () => {
     assert.ok(pluginReadme.includes('/plugin install complyeasyai@complyeasyai'));
   });
 
+  test('READMEs do not promise that Claude always asks before a change', () => {
+    // Research mode and organization tool settings can run tools without asking, and the server
+    // gets no signal that a person confirmed a call, so approval is described as depending on the
+    // user's Claude settings.
+    for (const [name, text] of [['plugin README', pluginReadme], ['root README', rootReadme]]) {
+      assert.ok(!/asks before each/i.test(text), `${name} promises Claude asks before each change`);
+      assert.ok(!/only after you agree/i.test(text), `${name} promises edits only after agreement`);
+    }
+    assert.match(pluginReadme, /depends on your Claude settings/);
+    assert.match(pluginReadme, /permission settings decide/);
+  });
+
   test('every slash command in the plugin README exists as a skill', () => {
     for (const match of pluginReadme.matchAll(/\/complyeasyai:([a-z-]+)/g)) {
       assert.ok(match[1] in SKILLS, `README names /complyeasyai:${match[1]}`);

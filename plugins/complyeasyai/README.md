@@ -52,12 +52,17 @@ workspace in your own words without a command.
   questionnaires.
 - **Changes are off unless your administrator allows them.** Where a workspace allows changes
   (adding or updating risks, updating a control's status, creating issues or comments, drafting
-  policies), Claude asks before each one, and every change is recorded in ComplyEasyAI's audit trail
-  under your name. Policies are only ever created as drafts.
+  policies), the change tools are marked as making changes so that Claude can ask before running
+  them, and the plugin's skills tell Claude to state each change and wait for your yes. Whether
+  Claude actually asks depends on your Claude settings and mode: some modes, such as Research, run
+  tools without asking, and on Team and Enterprise plans an Owner sets tool permissions. Every change
+  is recorded in ComplyEasyAI's audit trail under your name, and policies are only ever created as
+  drafts.
 - **Local files (Claude Code only).** The `control-evidence` command asks Claude Code to read files
   in your current repository, with Claude Code's usual permissions, to propose changes. File
-  contents are not sent to ComplyEasyAI. Claude Code changes files only after you agree, and never
-  commits or pushes.
+  contents are not sent to ComplyEasyAI. The skill tells Claude to apply a change only after you
+  agree to it and never to commit or push; your Claude Code permission settings decide whether file
+  edits prompt you.
 
 ## Install
 
